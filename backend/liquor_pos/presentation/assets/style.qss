@@ -1,0 +1,77 @@
+/* style.qss - Estilos globales táctiles y dark mode (Catppuccin Macchiato palette) */
+QMainWindow {
+    background-color: #24273a;
+}
+
+QWidget {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #cad3f5;
+}
+
+QTabWidget::pane {
+    border: 1px solid #363a4f;
+    background-color: #24273a;
+}
+
+QTabBar::tab {
+    background-color: #1e2030;
+    color: #cad3f5;
+    padding: 15px 30px;
+    font-size: 16px;
+    font-weight: bold;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    margin-right: 2px;
+}
+
+QTabBar::tab:selected {
+    background-color: #8aadf4;
+    color: #181926;
+}
+
+QPushButton {
+    background-color: #8aadf4;
+    color: #181926;
+    border: none;
+    border-radius: 8px;
+    padding: 15px 30px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+QPushButton:hover {
+    background-color: #b7bdf8;
+}
+
+QPushButton:pressed {
+    background-color: #7dc4e4;
+}
+
+QLineEdit {
+    background-color: #363a4f;
+    border: 2px solid #494d64;
+    border-radius: 8px;
+    padding: 15px;
+    color: #cad3f5;
+    font-size: 18px;
+}
+
+QLineEdit:focus {
+    border: 2px solid #8aadf4;
+}
+
+QTableWidget {
+    background-color: #24273a;
+    alternate-background-color: #363a4f;
+    gridline-color: #494d64;
+    font-size: 16px;
+    border: none;
+}
+QHeaderView::section {
+    background-color: #363a4f;
+    color: #cad3f5;
+    padding: 10px;
+    border: 1px solid #494d64;
+    font-weight: bold;
+    font-size: 16px;
+}

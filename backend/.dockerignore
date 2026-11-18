@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+env.bak/
+venv.bak/
+liquor_pos.db
+liquor_pos.db-shm
+liquor_pos.db-wal
+.DS_Store
